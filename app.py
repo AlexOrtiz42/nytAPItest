@@ -6,7 +6,7 @@ from nyt import get_article_data
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 
-@app.route('/')
+@app.route("/")
 def hello_world():
     """ Returns root endpoint HTML """
 
